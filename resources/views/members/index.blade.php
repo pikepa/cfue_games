@@ -11,23 +11,33 @@
       <div class="page-header" >
           <h1>Members</h1>        
       </div>
-          <ul class="list-group">
+      <div class= "col-md-7 col-md-offset-2">
+        
+            <table class="table">
+              <tr>
+                <th>Name</th>
+                <th>Wk 01</th>
+                <th>Wk 02</th>
+                <th>Wk 03</th>
+                <th>Wk 04</th>
+                <th>Wk 05</th>
+                <th>Total</th>
+                <th>Av Posn</th>
+              </tr>
+                   @foreach ($all_members as $member)
+              <tr>
+                       <td>  {{ $member->name }} </td>
+                       <td>  {{$member->wk01}} </td>
+                       <td>  {{$member->wk02}} </td>
+                       <td>  {{$member->wk03}} </td>  
+                       <td>  {{$member->wk04}} </td> 
+                       <td>  {{$member->wk05}} </td> 
+                       <td>  {{$member->getsum()}} </td> 
 
-           @foreach ($all_members as $member)
-            <li class="list-group-item">
-              <h2 class="list-group-item-heading"> {{ $member->name }} </h2>
-              <p class="list-group-item-text">
-                <strong>Week 01 Position &nbsp </strong>{{$member->wk01}} <br>
-                <strong>Week 02 Position &nbsp </strong>{{$member->wk02}} <br> 
-                <strong>Week 03 Position &nbsp </strong>{{$member->wk03}} <br> 
-                <strong>Week 04 Position &nbsp </strong>{{$member->wk04}} <br>
-                <strong>Week 05 Position &nbsp </strong>{{$member->wk05}} 
-
-              </p>
-            </li>
-           @endforeach
-      </ul>
+              </tr>
+                   @endforeach
+           </table>
+         </div>
         </div>
-
   </body>
 </html>

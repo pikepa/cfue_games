@@ -20,9 +20,7 @@ class MemberController extends Controller
   
     function orderbyname()
   {
-
-    $members = \App\Member::where('team', 'Team 02')
-               ->orderBy('wk01', 'asc')
+    $members = \App\Member::orderBy('Wk01', 'asc')
                ->take(10)
                ->get();
     return view('members.index',['all_members'=>$members]);
@@ -31,4 +29,14 @@ class MemberController extends Controller
          //print_r($members);
          //echo '<pre>';
   }
+  
+  //this function returns all teams and 
+  //members of the team to teams/index
+  //
+  function teams()
+  {
+    $teams = \App\Team::with('members')->get();
+      return view('teams.index',['all_teams'=>$teams]);
+  } 
+  
 }
