@@ -28,6 +28,10 @@
             <li><a href="/games/public/members">Participants</a></li>
             <li><a href="/games/public/teams">Team Results</a></li>           
             <li><a href="http://www.crossfitue.com/contact-us.html">Contact</a></li>
+            <li class="float-right">Version 0.0.1</li>
+          </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="#">Version 0.0.1</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

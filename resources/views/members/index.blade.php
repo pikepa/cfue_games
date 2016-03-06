@@ -3,9 +3,12 @@
 @section('content')
 
     <div class="container">
-      <div class="page-header" >
+      <div class="row">
+        <div class="col-sm-5 col-sm-offset-3  text-center">
           <h1>Team Games Participants</h1>        
-      </div>
+        </div>
+    </div>
+
       <div class= "col-md-7 col-md-offset-2">
         
             <table class="table">

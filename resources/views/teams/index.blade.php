@@ -3,9 +3,13 @@
 @section('content')
 
 <div class="container">
-  <div class="page-header" >
-      <h1 class="center">CFUE Open 2016 </h1>
-      <h4 >Team Positions</h4>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-3  text-center">
+              <h1>CFUE Open 2016 </h1>
+              <h4 >Team Positions</h4>
+        </div>
+    </div>
+
     </div>
   <div class= "col-md-7 col-md-offset-2">
 
