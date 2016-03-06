@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Members</title>
-     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> 
-      
-     </head>
-  <body>
+@extends ('layout')
+
+@section('content')
+
     <div class="container">
       <div class="page-header" >
-          <h1>Members</h1>        
+          <h1>Team Games Participants</h1>        
       </div>
       <div class= "col-md-7 col-md-offset-2">
         
@@ -21,7 +16,6 @@
                 <th>Wk 03</th>
                 <th>Wk 04</th>
                 <th>Wk 05</th>
-                <th>Total</th>
                 <th>Av Posn</th>
               </tr>
                    @foreach ($all_members as $member)
@@ -32,12 +26,11 @@
                        <td>  {{$member->wk03}} </td>  
                        <td>  {{$member->wk04}} </td> 
                        <td>  {{$member->wk05}} </td> 
-                       <td>  {{$member->getsum()}} </td> 
+                       <td>  {{$member->myposition}} </td> 
 
               </tr>
                    @endforeach
            </table>
          </div>
         </div>
-  </body>
-</html>
+@stop

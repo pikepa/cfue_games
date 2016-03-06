@@ -7,7 +7,7 @@
 */
 /* refers to the url welcome page*/
     Route::get('welcome', function () {
-        return view('welcome');
+        return view('home');
     });
 
 /* refers to the database Test page*/
@@ -24,7 +24,9 @@
 // create our route, return a view file (app/views/teams.blade.php)
 // we will also send the records we want to the view
 
-    Route::get('teams/index', 'MemberController@teams');
+    Route::get('teams', 'MemberController@teams');
+
+    Route::get('testsum', 'MemberController@testsum');
 
 
 /*
