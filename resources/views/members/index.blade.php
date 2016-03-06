@@ -4,8 +4,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-5 col-sm-offset-3  text-center">
-          <h1>Team Games Participants</h1>        
+        <div class="col-md-2 " >
+        <img style="padding-top:30px" src="http://www.crossfitue.com/uploads/6/8/0/7/68076505/1454397327.png" class="img-responsive " alt="Responsive image">
+      </div>
+        <div class="col-sm-5 col-md-offset-1 text-center">
+          <h1>Team Games Participants</h1>
+           <h4 >Individual Positions</h4>
         </div>
     </div>
 
@@ -35,5 +39,4 @@
                    @endforeach
            </table>
          </div>
-        </div>
-@stop
+       @stop
