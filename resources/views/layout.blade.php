@@ -10,7 +10,7 @@
 
 </head>
 <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
@@ -19,13 +19,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/games/public/welcome">2016 Team Games</a>
+          <a class="navbar-brand" href="/public_html/home/welcome">2016 Team Games</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse ">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/games/public/welcome">Home</a></li>
-            <li><a href="/games/public/members">Participants</a></li>
-            <li><a href="/games/public/teams">Team Results</a></li>           
+            <li class="active"><a href="/public_html/home/welcome">Home</a></li>
+            <li><a href="/public_html/home/members">Participants</a></li>
+            <li><a href="/public_html/home/teams">Team Results</a></li>           
             <li><a href="http://www.crossfitue.com/contact-us.html">Contact</a></li>
           </ul>
            <ul class="nav navbar-nav navbar-right">

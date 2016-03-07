@@ -18,6 +18,7 @@
             <table class="table">
               <tr>
                 <th>Name</th>
+                <th>Team</th>
                 <th>Wk 01</th>
                 <th>Wk 02</th>
                 <th>Wk 03</th>
@@ -28,6 +29,7 @@
                    @foreach ($all_members as $member)
               <tr>
                        <td>  {{ $member->name }} </td>
+                       <td>  {{ $member->team_id }} </td>
                        <td>  {{$member->wk01}} </td>
                        <td>  {{$member->wk02}} </td>
                        <td>  {{$member->wk03}} </td>  

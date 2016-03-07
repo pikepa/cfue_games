@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/',
+    'url' => 'http://preview.2i7wnn2lc3mr6bt90rmyxh18fky5jyvijb3owbt6rwqxgvi.box.codeanywhere.com/public_html/home',
 
     /*
     |--------------------------------------------------------------------------
