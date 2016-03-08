@@ -1,13 +1,10 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
 
   <title>CFUE Games</title>
   <link rel="stylesheet" href="css/app.css">
-
-
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">

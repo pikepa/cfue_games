@@ -17,19 +17,19 @@
         
             <table class="table">
               <tr>
-                <th>Name</th>
                 <th>Team</th>
+                <th>Name</th>
                 <th>Wk 01</th>
                 <th>Wk 02</th>
                 <th>Wk 03</th>
                 <th>Wk 04</th>
                 <th>Wk 05</th>
-                <th>Av Posn</th>
+                <th>Total</th>
               </tr>
                    @foreach ($all_members as $member)
               <tr>
-                       <td>  {{ $member->name }} </td>
                        <td>  {{ $member->team_id }} </td>
+                       <td>  {{ $member->name }} </td>
                        <td>  {{$member->wk01}} </td>
                        <td>  {{$member->wk02}} </td>
                        <td>  {{$member->wk03}} </td>  

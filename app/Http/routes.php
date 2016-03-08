@@ -24,7 +24,7 @@
 // create our route, return a view file (app/views/teams.blade.php)
 // we will also send the records we want to the view
 
-    Route::get('teams', 'MemberController@teams');
+    Route::get('teams', 'TeamController@teams');
 
     Route::get('testsum', 'MemberController@testsum');
 

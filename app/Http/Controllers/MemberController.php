@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
+
 class MemberController extends Controller 
 {
   
   function index()
   {
-    $members = \App\Member::all();
+    $members = \App\Member::orderBy('overall_position', 'asc')->get();
     return view('members.index',['all_members'=>$members]);
   }
   
@@ -24,14 +25,7 @@ class MemberController extends Controller
          echo '<pre>';
   }
   
-  //this function returns all teams and 
-  //members of the team to teams/index
-  //sorted by the teams position
-  function teams()
-  {
-    $teams = \App\Team::with('members')->get()->sortBy('position');
-      return view('teams.index',['all_teams'=>$teams]);
-  } 
+
  
   // this is testing software
    function testsum()

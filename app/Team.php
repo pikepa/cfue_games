@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use Parameter;
 class Team extends Model
 {
   
@@ -21,14 +21,14 @@ class Team extends Model
     //
     public function getPositionAttribute()
     {
+      $week_no=2;
       $team_id=$this->attributes['id'];
       $userdata=\App\Team::with('members')->where('id',$team_id)->first();
-      $sum=$userdata['members']->avg('myposition');
-      return $sum;
+      $sum=$userdata['members']->avg('overall_position');
+      return $sum/$week_no;
     }
   
-  
-  
+
 }
 
 

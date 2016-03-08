@@ -24,10 +24,10 @@ class Member extends Model
     // Calculate average postion by summing wk01,wk02 etc...
     //
     public function getMypositionAttribute()
-  { 
-    return $this->wk01 + $this->wk02 + $this->wk03 + $this->wk04 + $this->wk05 ;
+    {
+      return $this->wk01 + $this->wk02 + $this->wk03 + $this->wk04 + $this->wk05 ;
     
-  }
+    }
 
 }
   
