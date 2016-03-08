@@ -5,6 +5,11 @@
 | Routes File
 |--------------------------------------------------------------------------
 */
+/* refers to the url root page*/
+    Route::get('/', function () {
+        return view('home');
+    });
+    
 /* refers to the url welcome page*/
     Route::get('welcome', function () {
         return view('home');
