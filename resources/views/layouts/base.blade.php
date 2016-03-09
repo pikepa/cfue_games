@@ -13,9 +13,7 @@
    @include('includes.Navbar')
   
   <div class="container">
-    <h2>
-      This is the top of the content !
-    </h2>
+
     
    @yield('content')
     

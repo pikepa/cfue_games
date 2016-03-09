@@ -45,6 +45,9 @@
                 </table>
               </div>
           @endforeach
+    <h2>
+      This is the bottom of the content !
+    </h2>
      </div>
 </div>
 @stop
