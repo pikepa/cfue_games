@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => 'http://139.162.39.221/default/current/public',
+    'url' => 'http://139.162.34.31//default/current/public',
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('TXMCUyrcHmgwbjRPJJDI2paJOkWTDZV2'),
 
     'cipher' => 'AES-256-CBC',
 
