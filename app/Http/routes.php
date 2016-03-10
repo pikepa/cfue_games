@@ -7,7 +7,7 @@
 */
 /* refers to the url root page*/
     Route::get('/', function () {
-        return view('home');
+       echo "<h1>Hello World</h1>";
     });
     
 /* refers to the url welcome page*/
