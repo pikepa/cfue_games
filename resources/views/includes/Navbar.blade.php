@@ -7,13 +7,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/home/welcome">2016 Team Games</a>
+          <a class="navbar-brand" href="welcome">2016 Team Games</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse ">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/home/welcome">Home</a></li>
-            <li><a href="/home/members">Participants</a></li>
-            <li><a href="/home/teams">Team Results</a></li>           
+            <li class="active"><a href="welcome">Home</a></li>
+            <li><a href="members">Participants</a></li>
+            <li><a href="teams">Team Results</a></li>           
             <li><a href="http://www.crossfitue.com/contact-us.html">Contact</a></li>
           </ul>
            <ul class="nav navbar-nav navbar-right">
