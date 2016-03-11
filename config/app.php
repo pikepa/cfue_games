@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => 'http://preview.2i7wnn2lc3mr6bt90rmyxh18fky5jyvijb3owbt6rwqxgvi.box.codeanywhere.com/public_html/',
+    'url' => 'http://139.162.34.31//default/current/public',
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('TXMCUyrcHmgwbjRPJJDI2paJOkWTDZV2'),
 
     'cipher' => 'AES-256-CBC',
 
