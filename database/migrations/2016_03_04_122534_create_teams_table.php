@@ -15,6 +15,10 @@ class CreateTeamsTable extends Migration
         Schema::create('teams', function (Blueprint $table) {
             $table->increments('id');
             $table->string('teamname');
+            $table->integer('wk01_posn')->unsigned();
+            $table->integer('wk02_posn')->unsigned();
+            $table->integer('wk03_posn')->unsigned();
+            $table->integer('wk04_posn')->unsigned();
             $table->timestamps();
         });
     }
