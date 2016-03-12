@@ -45,7 +45,6 @@
                 </table>
               </div>
           @endforeach
-          <h2>Final Test to check envoyer is updating</h2>
      </div>
 </div>
 @stop
