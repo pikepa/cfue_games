@@ -13,7 +13,7 @@ class TeamController extends Controller
   //sorted by the teams position
   function teams()
   {
-    $teams = \App\Team::with('members')->get()->sortBy('position');
+    $teams = \App\Team::with('members')->get()->sortBy('score');
       return view('teams.index',['all_teams'=>$teams]);
   } 
 }

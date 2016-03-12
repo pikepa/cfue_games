@@ -7,7 +7,7 @@ use Parameter;
 class Team extends Model
 {
   
-    protected $appends = array('position');
+    protected $appends = array('score');
   
   
     // DEFINE RELATIONSHIPS --------------------------------------------------
@@ -19,7 +19,7 @@ class Team extends Model
     // Functions--------------------------------------------------
     // Calculate average postion by summing wk01,wk02 etc...
     //
-    public function getPositionAttribute()
+    public function getScoreAttribute()
     {
       $week_no=2;
       $team_id=$this->attributes['id'];
