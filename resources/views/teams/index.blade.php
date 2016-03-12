@@ -45,7 +45,6 @@
                 </table>
               </div>
           @endforeach
-            <h2>This is a test end of listing</h2>
      </div>
 </div>
 @stop
