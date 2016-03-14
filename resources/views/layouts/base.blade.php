@@ -6,8 +6,9 @@
   <meta charset="utf-8">
 
   <title>CFUE Games</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 
