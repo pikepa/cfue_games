@@ -18,7 +18,7 @@
 
          @foreach ($all_teams as $team)
              <h2>  {{ $team->teamname }} </h2>
-             <h4>This weeks position : {{ $team->wk02_posn }} (Last week : {{ $team->wk03_posn }})</h4>
+             <h4>This weeks position : {{ $team->wk03_posn }} (Last week : {{ $team->wk02_posn }})</h4>
              <h4> Average position {{ number_format($team->score,2) }} </h4>
 
               <div class="table-responsive">
