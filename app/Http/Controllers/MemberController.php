@@ -10,7 +10,7 @@ class MemberController extends Controller
   
   function index()
   {
-    $members = \App\Member::orderBy('myposition', 'asc')->get();
+    $members = \App\Member::orderBy('overall_position', 'asc')->get();
     return view('members.index',['all_members'=>$members]);
   }
   
