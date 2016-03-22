@@ -21,7 +21,7 @@ class Team extends Model
     //
     public function getScoreAttribute()
     {
-      $week_no=3;
+      $week_no=4;
       $team_id=$this->attributes['id'];
       $userdata=\App\Team::with('members')->where('id',$team_id)->first();
       $sum=$userdata['members']->avg('overall_position');
